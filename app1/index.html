@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href = "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-classic/resources/theme-classic-all.css" 
+         rel = "stylesheet" />
+      <script type = "text/javascript" 
+         src = "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+      
+      <script type = "text/javascript">
+         Ext.onReady(function() {
+            Ext.create('Ext.Panel', {
+               renderTo: 'helloWorldPanel',
+               height: 720,
+               width: 1366,
+               title: 'Hello world of Rakesh',
+               html: 'First Ext JS Hello World Program to let us know about writing information in tags/variables. Add frame change to fit with screen like height=720 and width=1366. Try to fit with all screen with content using viewport meta tag'
+            });
+         });
+      </script>
+   </head>
+   
+   <body>
+      <div id = "helloWorldPanel" />
+      <div id = "test">App1 Page</div>
+   </body>
+</html>
